@@ -14,3 +14,31 @@ body {
     background-color: rgb(37,51,61);
     margin-top: 20px;
 }
+
+.botonera {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: rgb(68,82,90);
+    color: rgb(255,255,255);
+    font-size: x-large;
+}
+
+.btnSign {
+    background-color: rgb(98, 199, 163);
+}
+
+.btn:hover {
+    background-color: rgb(60,177,136);
+}
+
+.btnSign:hover {
+    background-color: rgb(60,177,136);
+}
+

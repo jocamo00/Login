@@ -30,11 +30,11 @@ body {
     font-size: x-large;
 }
 
-.btn:hover, .btnSign:hover {
+.btn:hover, .btnSign:hover, .btnStarted:hover {
     background-color: rgb(60,177,136);
 }
 
-.btnSign {
+.btnSign, .btnStarted {
     background-color: rgb(98, 199, 163);
 }
 
@@ -75,6 +75,19 @@ input {
     color: rgb(119,128,134); 
     font-size: large;
     padding-left: 15px;
+}
+
+.btnAceptar {
+    display: flex;
+    justify-content: center;
+}
+
+.btnStarted {
+    width: 500px;
+    height: 60px;
+    border: none;
+    color: rgb(255,255,255);
+    font-size: xx-large;
 
 }
 
